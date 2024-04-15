@@ -1,0 +1,23 @@
+[package]
+name = "wiregui"
+version = "0.1.0"
+authors = [
+    "pythcoiner <pythcoiner@proton.me>",
+]
+edition = "2021"
+
+
+[dependencies]
+# GUI dependencies
+iced_runtime = "0.12.1"
+iced = { version = "0.12.1",default-features = false, features = ["webgl", "image"] }
+
+# Common
+tokio = { version = "1.37.0", features = ["time", "rt", "rt-multi-thread", "macros"] }
+log = "0.4.21"
+console_log = "1.0"
+fern = "0.6.2"
+chrono = "0.4.33"
+colored = "2.1.0"
+elevated-command = "1.1.2"
+
