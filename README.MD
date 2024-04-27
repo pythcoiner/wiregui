@@ -24,7 +24,13 @@ sudo cp ./target/release /usr/bin/wiregui
 
 ## Dependencies
 
-`wiregard` is needed.
+`wiregard` and `resolvconf` are  needed:
+
+``` 
+sudo apt install wireguard resolvconf
+```
+
+
 
 
 ## Run
